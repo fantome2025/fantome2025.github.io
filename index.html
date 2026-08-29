@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lass — Cybersécurité & Développement</title>
+<meta name="description" content="Portfolio de Lass — étudiant en cybersécurité et développeur full-stack, trilingue français / anglais / bambara.">
+<meta property="og:title" content="Lass — Cybersécurité & Développement">
+<meta property="og:description" content="Étudiant en cybersécurité & développeur full-stack. Test d'intrusion éthique, durcissement web, IA pour langues africaines.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2338bdf8' d='M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">L<span class="accent">.</span></div>
+  <nav>
+    <a href="#about" data-i18n="nav.about">À propos</a>
+    <a href="#skills" data-i18n="nav.skills">Compétences</a>
+    <a href="#projects" data-i18n="nav.projects">Projets</a>
+    <a href="#security" data-i18n="nav.security">Sécurité</a>
+    <a href="#contact" data-i18n="nav.contact">Contact</a>
+  </nav>
+  <button id="langToggle" class="lang-toggle" type="button" aria-label="Switch language">EN</button>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow" data-i18n="hero.eyebrow">Étudiant en cybersécurité · Développeur full-stack</p>
+      <h1 class="hero-title">
+        <span data-i18n="hero.title1">Je sécurise et construis</span><br>
+        <span class="accent" data-i18n="hero.title2">le web de demain.</span>
+      </h1>
+      <p class="hero-sub" data-i18n="hero.sub">
+        Test d'intrusion éthique, durcissement d'applications, et développement d'outils IA —
+        avec une approche rigoureuse et un périmètre toujours autorisé.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects" data-i18n="hero.cta1">Voir mes projets</a>
+        <a class="btn btn-ghost" href="#contact" data-i18n="hero.cta2">Me contacter</a>
+      </div>
+      <div class="hero-badges">
+        <span class="badge">FR</span><span class="badge">EN</span><span class="badge">Bambara</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title" data-i18n="about.title">À propos</h2>
+    <p class="section-text" data-i18n="about.text">
+      Étudiant à l'université, passionné par la sécurité informatique et le développement.
+      Trilingue français / anglais / bambara, je construis des applications web complètes
+      (frontend, backend, déploiement) et j'applique la sécurité par conception : penser
+      l'attaque pour mieux défendre.
+    </p>
+    <p class="section-text" data-i18n="about.text2">
+      Mon approche est éthique : je n'effectue des tests d'intrusion que sur des
+      infrastructures autorisées (périmètre déclaré et consenti), et je ne transige
+      jamais sur la confidentialité des utilisateurs.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="section-title" data-i18n="skills.title">Compétences</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3 data-i18n="skills.sec.title">Sécurité offensive / défensive</h3>
+        <ul class="skill-list">
+          <li data-i18n="skills.sec.l1">Reconnaissance & énumération (scope autorisé)</li>
+          <li data-i18n="skills.sec.l2">Durcissement web (CSP, CORS, anti-fingerprint)</li>
+          <li data-i18n="skills.sec.l3">Audit d'en-têtes & analyse de surface d'attaque</li>
+          <li data-i18n="skills.sec.l4">Red-team / pentest éthique (PTES)</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3 data-i18n="skills.dev.title">Développement</h3>
+        <ul class="skill-list">
+          <li data-i18n="skills.dev.l1">Node.js (backends monolithes & micro)</li>
+          <li data-i18n="skills.dev.l2">Frontend vanilla / HTML / CSS / JS</li>
+          <li data-i18n="skills.dev.l3">Git & GitHub, CI/CD (Actions)</li>
+          <li data-i18n="skills.dev.l4">Déploiement (Codespaces, systemd, cloud)</li>
+        </ul>
+      </div>
+      <div class="skill-card">
+        <h3 data-i18n="skills.ai.title">IA & données</h3>
+        <ul class="skill-list">
+          <li data-i18n="skills.ai.l1">Fine-tuning de LLM (LoRA, Unsloth)</li>
+          <li data-i18n="skills.ai.l2">Collecte & curation de datasets</li>
+          <li data-i18n="skills.ai.l3">Langues africaines (bambara)</li>
+          <li data-i18n="skills.ai.l4">Orchestration d'agents IA</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title" data-i18n="projects.title">Projets</h2>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <h3 data-i18n="projects.p1.title">Plateforme de streaming vidéo</h3>
+        <p class="project-tags">Node.js · HLS · MP4 · PWA</p>
+        <p data-i18n="projects.p1.desc">
+          Plateforme complète (films, séries, animes, dessins animés) : lecteur multi-sources,
+          téléchargement MP4, mémoire de lecture, interface mobile soignée. Durcie par
+          conception (CSP stricte, CORS same-origin, neutralisation de l'empreinte serveur,
+          confidentialité par appareil).
+        </p>
+      </article>
+
+      <article class="project-card">
+        <a href="https://github.com/fantome2025" class="project-link">
+          <h3 data-i18n="projects.p2.title">Massa — IA pour le bambara</h3>
+        </a>
+        <p class="project-tags">LLM · Fine-tuning · LoRA</p>
+        <p data-i18n="projects.p2.desc">
+          Fine-tuning d'un modèle de langage pour le bambara (une langue sous-représentée
+          dans l'IA). Collecte et curation d'un dataset, entraînement LoRA, cible mobile
+          embarquée — au service de l'accessibilité linguistique au Sahel.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <a href="https://github.com/fantome2025" class="project-link">
+          <h3 data-i18n="projects.p3.title">Lecteur de musique Android</h3>
+        </a>
+        <p class="project-tags">Kotlin · Android · CI/CD</p>
+        <p data-i18n="projects.p3.desc">
+          Application Android native (Kotlin) qui scanne et lit la musique du téléphone,
+          avec build APK automatique via GitHub Actions.
+        </p>
+      </article>
+
+      <article class="project-card">
+        <a href="https://github.com/fantome2025" class="project-link">
+          <h3 data-i18n="projects.p4.title">Plateforme communautaire tech</h3>
+        </a>
+        <p class="project-tags">Next.js · Express · PostgreSQL</p>
+        <p data-i18n="projects.p4.desc">
+          Plateforme communautaire (MVP) : publications, projets, modération, déployée
+          et testée de bout en bout.
+        </p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SECURITY -->
+  <section id="security" class="section">
+    <h2 class="section-title" data-i18n="security.title">Sécurité</h2>
+    <div class="security-note">
+      <p data-i18n="security.ethic">
+        <strong>Éthique avant tout.</strong> Mes tests d'intrusion ne ciblent que des
+        <em>infrastructures personnelles ou explicitement autorisées</em>. Aucune action
+        destructive, aucune exfiltration hors périmètre, aucun impact sur des tiers.
+      </p>
+      <p data-i18n="security.wp">
+        Je documente mon travail sous forme de <em>writeups</em> : recon → durcissement →
+        vérification. Un exemple concret est le durcissement complet d'une application web
+        (en-têtes de sécurité, politique CORS, neutralisation de l'empreinte technique,
+        confidentialité des utilisateurs).
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2 class="section-title" data-i18n="contact.title">Contact</h2>
+    <p class="section-text" data-i18n="contact.text">
+      Disponible pour des missions de développement web, d'audit/durcissement, ou de
+      contribution à des projets IA. Me joindre via GitHub.
+    </p>
+    <div class="contact-links">
+      <a class="btn btn-primary" href="https://github.com/fantome2025" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p data-i18n="footer">© <span id="year"></span> Lass — Cybersécurité & Développement. Construit avec rigueur.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
