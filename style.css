@@ -142,6 +142,7 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 clamp(1rem, 4vw, 2rem)
 .security-note p { color: var(--text-muted); margin-bottom: 0.8rem; }
 .security-note strong { color: var(--accent-2); }
 .security-note em { color: var(--text); font-style: normal; }
+.security-links { margin-top: 1rem; }
 
 /* ===== Contact ===== */
 .contact-links { margin-top: 1.5rem; }

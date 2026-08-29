@@ -51,6 +51,7 @@
       'security.title': 'Sécurité',
       'security.ethic': '<strong>Éthique avant tout.</strong> Mes tests d\'intrusion ne ciblent que des <em>infrastructures personnelles ou explicitement autorisées</em>. Aucune action destructive, aucune exfiltration hors périmètre, aucun impact sur des tiers.',
       'security.wp': "Je documente mon travail sous forme de <em>writeups</em> : recon → durcissement → vérification. Un exemple concret est le durcissement complet d'une application web (en-têtes de sécurité, politique CORS, neutralisation de l'empreinte technique, confidentialité des utilisateurs).",
+      'security.wplink': 'Lire le writeup (durcissement web)',
 
       'contact.title': 'Contact',
       'contact.text': "Disponible pour des missions de développement web, d'audit/durcissement, ou de contribution à des projets IA. Me joindre via GitHub.",
@@ -105,6 +106,7 @@
       'security.title': 'Security',
       'security.ethic': '<strong>Ethics first.</strong> My penetration tests only target <em>personal or explicitly authorized infrastructure</em>. No destructive actions, no out-of-scope exfiltration, no impact on third parties.',
       'security.wp': "I document my work as <em>writeups</em>: recon → hardening → verification. A concrete example is the complete hardening of a web application (security headers, CORS policy, technical fingerprint neutralization, user privacy).",
+      'security.wplink': 'Read the writeup (web hardening)',
 
       'contact.title': 'Contact',
       'contact.text': 'Available for web development, audit/hardening missions, or contributions to AI projects. Reach me via GitHub.',
